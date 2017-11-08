@@ -22,16 +22,23 @@ public class ParserManager {
 		compra = new Compra();
 	}
 
-	public ArrayList<Receta> getRecetario() {
+	public ArrayList<Receta> getRecetasRecetario() {
 		return recetario.getRecetas();
 	}
 
-	public ArrayList<Receta> getCompra() {
+	public Recetario getRecetario() {
+		return recetario;
+	}
+
+	public ArrayList<Receta> getRecetasCompra() {
 		return compra.getRecetas();
 	}
-	
-	public void printCompra(URI uri)
-	{
-		parser.writeListaCompra(getCompra(), uri);
+
+	public Compra getCompra() {
+		return compra;
+	}
+
+	public void printCompra(URI uri) {
+		parser.writeListaCompra(getRecetasCompra(), uri);
 	}
 }

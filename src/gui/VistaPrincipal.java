@@ -1,11 +1,14 @@
 package gui;
 
 import java.awt.BorderLayout;
+import java.awt.Color;
 import java.awt.EventQueue;
 import java.awt.FlowLayout;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.File;
+import java.net.URI;
+import java.net.URISyntaxException;
 import java.util.ArrayList;
 
 import javax.swing.DefaultListModel;
@@ -17,6 +20,7 @@ import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 import javax.swing.border.EmptyBorder;
+import javax.swing.border.TitledBorder;
 import javax.swing.filechooser.FileNameExtensionFilter;
 
 import org.dom4j.DocumentException;
@@ -24,8 +28,6 @@ import org.dom4j.DocumentException;
 import logic.Receta;
 import main.ParserManager;
 import net.miginfocom.swing.MigLayout;
-import javax.swing.border.TitledBorder;
-import java.awt.Color;
 
 public class VistaPrincipal extends JFrame {
 
@@ -47,7 +49,7 @@ public class VistaPrincipal extends JFrame {
 	private JList<Receta> compraList;
 	private DefaultListModel<Receta> compraModel;
 	private JButton btnGenerarListaCompra;
-	
+
 	private ParserManager manager;
 
 	/**
@@ -72,7 +74,7 @@ public class VistaPrincipal extends JFrame {
 	public VistaPrincipal() {
 		recetarioModel = new DefaultListModel<Receta>();
 		compraModel = new DefaultListModel<Receta>();
-		
+
 		setTitle("Generrador Lista de la Compra");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 620, 429);
@@ -134,15 +136,16 @@ public class VistaPrincipal extends JFrame {
 			btnSeleccionarRecetario.addActionListener(new ActionListener() {
 				public void actionPerformed(ActionEvent e) {
 					cleanRecetario();
-					showFileChooser();
+					selectRecetarioXML();
 					loadRecetarioModel();
+					btnGenerarListaCompra.setEnabled(true);
 				}
 			});
 		}
 		return btnSeleccionarRecetario;
 	}
 
-	private void showFileChooser() {
+	private void selectRecetarioXML() {
 		JFileChooser fileChooser = new JFileChooser();
 		FileNameExtensionFilter filter = new FileNameExtensionFilter("xml files (*.xml)", "xml");
 		fileChooser.setFileFilter(filter);
@@ -155,7 +158,8 @@ public class VistaPrincipal extends JFrame {
 			try {
 				manager = new ParserManager(new File(selectedFile));
 			} catch (DocumentException e) {
-				JOptionPane.showMessageDialog(this, "ERROR EN EL DOCUMENTO", "ERROR CON EL DOCUMENTO", JOptionPane.WARNING_MESSAGE);
+				JOptionPane.showMessageDialog(this, "Error en el documento.", "ERROR CON EL DOCUMENTO",
+						JOptionPane.WARNING_MESSAGE);
 				e.printStackTrace();
 			}
 		}
@@ -165,7 +169,8 @@ public class VistaPrincipal extends JFrame {
 	private JScrollPane getSPnRecetario() {
 		if (sPnRecetario == null) {
 			sPnRecetario = new JScrollPane();
-			sPnRecetario.setBorder(new TitledBorder(null, "Recetario", TitledBorder.LEADING, TitledBorder.TOP, null, Color.BLACK));
+			sPnRecetario.setBorder(
+					new TitledBorder(null, "Recetario", TitledBorder.LEADING, TitledBorder.TOP, null, Color.BLACK));
 			sPnRecetario.setViewportView(getList());
 		}
 		return sPnRecetario;
@@ -181,12 +186,13 @@ public class VistaPrincipal extends JFrame {
 	}
 
 	private void loadRecetarioModel() {
-		ArrayList<Receta> recetario = manager.getRecetario();
+		ArrayList<Receta> recetario = manager.getRecetario().getRecetas();
 		for (Receta receta : recetario) {
 			recetarioModel.addElement(receta);
 		}
 		recetarioList.setModel(recetarioModel);
 	}
+
 	private JPanel getPnAux1() {
 		if (pnAux1 == null) {
 			pnAux1 = new JPanel();
@@ -196,6 +202,7 @@ public class VistaPrincipal extends JFrame {
 		}
 		return pnAux1;
 	}
+
 	private JButton getBtnSeleccionar() {
 		if (btnSeleccionar == null) {
 			btnSeleccionar = new JButton("Seleccionar");
@@ -207,33 +214,40 @@ public class VistaPrincipal extends JFrame {
 		}
 		return btnSeleccionar;
 	}
-	
-	private void loadCompraModel()
-	{
+
+	private void loadCompraModel() {
 		int[] indices = recetarioList.getSelectedIndices();
 		for (int i = 0; i < indices.length; i++) {
 			Receta receta = recetarioModel.getElementAt(indices[i]);
-			compraModel.addElement(receta);
+			if(!manager.getCompra().isInCompra(receta))
+			{
+				manager.getCompra().addReceta(receta);
+				compraModel.addElement(receta);
+			}
+			
 		}
 		compraList.setModel(compraModel);
 	}
-	
+
 	private void cleanCompra() {
 		compraModel.removeAllElements();
+		btnGenerarListaCompra.setEnabled(false);
 	}
-	
-	private void cleanRecetario(){
+
+	private void cleanRecetario() {
 		recetarioModel.removeAllElements();
 	}
-	
+
 	private JScrollPane getScrollPane_1() {
 		if (sPnCompra == null) {
 			sPnCompra = new JScrollPane();
-			sPnCompra.setBorder(new TitledBorder(null, "Lista de la Compra", TitledBorder.LEADING, TitledBorder.TOP, null, Color.BLACK));
+			sPnCompra.setBorder(new TitledBorder(null, "Lista de la Compra", TitledBorder.LEADING, TitledBorder.TOP,
+					null, Color.BLACK));
 			sPnCompra.setViewportView(getList_1());
 		}
 		return sPnCompra;
 	}
+
 	private JList<Receta> getList_1() {
 		if (compraList == null) {
 			compraList = new JList<Receta>();
@@ -243,17 +257,44 @@ public class VistaPrincipal extends JFrame {
 		}
 		return compraList;
 	}
+
 	private JButton getBtnGenerarListaCompra() {
 		if (btnGenerarListaCompra == null) {
 			btnGenerarListaCompra = new JButton("Generar Lista de la Compra");
+			btnGenerarListaCompra.setEnabled(false);
 			btnGenerarListaCompra.addActionListener(new ActionListener() {
 				public void actionPerformed(ActionEvent e) {
-					//TODO: generacion del nuevo XML
-					
+					URI uri = selectDestinoCompra();
+					manager.printCompra(uri);
 					cleanCompra();
+					JOptionPane.showMessageDialog(null, "Lista de la compra generada correctamente", "CARRO DE LA COMPRA CORRECTO",
+							JOptionPane.INFORMATION_MESSAGE);
 				}
 			});
 		}
 		return btnGenerarListaCompra;
+	}
+
+	private URI selectDestinoCompra() {
+		JFileChooser DirectoryChooser = new JFileChooser();
+		URI selectedDirectory = null;
+		DirectoryChooser.setMultiSelectionEnabled(false);
+		DirectoryChooser.setFileSelectionMode(JFileChooser.DIRECTORIES_ONLY);
+		DirectoryChooser.setDialogTitle("Seleccione el destino de la lista de la compra.");
+		DirectoryChooser.setCurrentDirectory(new File(System.getProperty("user.home")));
+		int result = DirectoryChooser.showOpenDialog(this);
+		if (result == JFileChooser.APPROVE_OPTION) {
+			String selectedFile = DirectoryChooser.getSelectedFile().getAbsolutePath();
+			System.out.println("Selected file: " + selectedFile);
+			try {
+				selectedDirectory = new URI(selectedFile);
+			} catch (URISyntaxException | IllegalArgumentException e) {
+				JOptionPane.showMessageDialog(this, "Error con el destino", "ERROR CON EL DESTINO",
+						JOptionPane.WARNING_MESSAGE);
+				e.printStackTrace();
+			}
+		}
+		return selectedDirectory;
+
 	}
 }
