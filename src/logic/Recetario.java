@@ -14,4 +14,8 @@ public class Recetario {
 	{
 		recetas.add(receta);
 	}
+
+	public ArrayList<Receta> getRecetas() {
+		return recetas;
+	}
 }

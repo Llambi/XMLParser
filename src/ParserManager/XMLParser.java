@@ -1,26 +1,17 @@
 package ParserManager;
 
-import java.net.URL;
-import java.util.List;
+import java.io.File;
 
 import org.dom4j.Document;
 import org.dom4j.DocumentException;
-import org.dom4j.Node;
 import org.dom4j.io.SAXReader;
 
 public class XMLParser {
 
-	public Document getDocument(URL url) throws DocumentException {
+	public Document getDocument(File file) throws DocumentException {
 		SAXReader reader = new SAXReader();
-		Document document = reader.read(url);
+		Document document = reader.read(file);
 		return document;
 	}
 	
-	public void bar(Document document) {
-	    List<Node> list = document.selectNodes("//foo/bar");
-
-	    Node node = document.selectSingleNode("//foo/bar/author");
-
-	    String name = node.valueOf("@name");
-	}
 }

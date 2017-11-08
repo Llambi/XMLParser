@@ -1,6 +1,7 @@
 package main;
 
-import java.net.URL;
+import java.io.File;
+import java.util.ArrayList;
 import java.util.List;
 
 import org.dom4j.Document;
@@ -17,21 +18,21 @@ public class ParserManager {
 	private Recetario recetario;
 	private XMLParser parser;
 
-	public ParserManager(URL url) throws DocumentException {
+	public ParserManager(File file) throws DocumentException {
 		recetario = new Recetario();
 		parser = new XMLParser();
-		chargeRecetario(url);
+		chargeRecetario(file);
 	}
 
-	private void chargeRecetario(URL url) throws DocumentException {
-		Document doc = parser.getDocument(url);
-		List<Node> recetas = doc.selectNodes("//Receta");
+	private void chargeRecetario(File file) throws DocumentException {
+		Document doc = parser.getDocument(file);
+		List<Node> recetas = doc.selectNodes("//receta");
 
 		for (Node recetaNodes : recetas) {
-			String nombreReceta = recetaNodes.valueOf("@nombre");
-			Receta receta = new Receta(nombreReceta);
+			Node nombreReceta = recetaNodes.selectSingleNode("titulo");
+			Receta receta = new Receta(nombreReceta.getText());
 
-			List<Node> ingredientes = recetaNodes.selectNodes("//Ingrediente");
+			List<Node> ingredientes = recetaNodes.selectNodes("//ingrediente");
 
 			for (Node ingrediente : ingredientes) {
 				String nombreIngrdiente = ingrediente.getText();
@@ -41,5 +42,9 @@ public class ParserManager {
 
 			recetario.addReceta(receta);
 		}
+	}
+
+	public ArrayList<Receta> getRecetario() {
+		return recetario.getRecetas();
 	}
 }
