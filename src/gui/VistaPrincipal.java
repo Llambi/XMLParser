@@ -2,9 +2,20 @@ package gui;
 
 import java.awt.BorderLayout;
 import java.awt.EventQueue;
+import java.awt.FlowLayout;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.io.File;
+import java.util.ArrayList;
 
+import javax.swing.DefaultListModel;
+import javax.swing.JButton;
+import javax.swing.JFileChooser;
 import javax.swing.JFrame;
+import javax.swing.JList;
+import javax.swing.JOptionPane;
 import javax.swing.JPanel;
+import javax.swing.JScrollPane;
 import javax.swing.border.EmptyBorder;
 import javax.swing.filechooser.FileNameExtensionFilter;
 
@@ -12,26 +23,16 @@ import org.dom4j.DocumentException;
 
 import logic.Receta;
 import main.ParserManager;
-
-import javax.swing.DefaultListModel;
-import javax.swing.JButton;
-import javax.swing.JFileChooser;
-import javax.swing.SwingConstants;
-import java.awt.FlowLayout;
 import net.miginfocom.swing.MigLayout;
-import java.awt.event.ActionListener;
-import java.io.File;
-import java.net.MalformedURLException;
-import java.net.URL;
-import java.util.ArrayList;
-import java.awt.event.ActionEvent;
-import javax.swing.JScrollPane;
-import javax.swing.JList;
-import javax.swing.JOptionPane;
-import java.awt.Button;
+import javax.swing.border.TitledBorder;
+import java.awt.Color;
 
 public class VistaPrincipal extends JFrame {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private JPanel contentPane;
 	private JButton btnCerrar;
 	private JPanel pnBotonera;
@@ -76,6 +77,7 @@ public class VistaPrincipal extends JFrame {
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 620, 429);
 		contentPane = new JPanel();
+		contentPane.setBackground(Color.WHITE);
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		setContentPane(contentPane);
 		contentPane.setLayout(new BorderLayout(0, 0));
@@ -104,6 +106,7 @@ public class VistaPrincipal extends JFrame {
 	private JPanel getPnBotonera() {
 		if (pnBotonera == null) {
 			pnBotonera = new JPanel();
+			pnBotonera.setBackground(Color.WHITE);
 			FlowLayout flowLayout = (FlowLayout) pnBotonera.getLayout();
 			flowLayout.setAlignment(FlowLayout.TRAILING);
 			pnBotonera.add(getBtnCerrar());
@@ -114,12 +117,13 @@ public class VistaPrincipal extends JFrame {
 	private JPanel getPnBody() {
 		if (pnBody == null) {
 			pnBody = new JPanel();
+			pnBody.setBackground(Color.WHITE);
 			pnBody.setLayout(new MigLayout("", "[36.23%,grow][103.00,center][34.59%,grow]", "[][grow][]"));
-			pnBody.add(getBtnSeleccionarRecetario(), "cell 0 0");
+			pnBody.add(getBtnSeleccionarRecetario(), "cell 0 0,alignx center,aligny center");
 			pnBody.add(getSPnRecetario(), "cell 0 1,grow");
 			pnBody.add(getPnAux1(), "cell 1 1,grow");
 			pnBody.add(getScrollPane_1(), "cell 2 1,grow");
-			pnBody.add(getBtnGenerarListaCompra(), "cell 2 2");
+			pnBody.add(getBtnGenerarListaCompra(), "cell 2 2,alignx center,aligny center");
 		}
 		return pnBody;
 	}
@@ -161,6 +165,7 @@ public class VistaPrincipal extends JFrame {
 	private JScrollPane getSPnRecetario() {
 		if (sPnRecetario == null) {
 			sPnRecetario = new JScrollPane();
+			sPnRecetario.setBorder(new TitledBorder(null, "Recetario", TitledBorder.LEADING, TitledBorder.TOP, null, Color.BLACK));
 			sPnRecetario.setViewportView(getList());
 		}
 		return sPnRecetario;
@@ -169,6 +174,7 @@ public class VistaPrincipal extends JFrame {
 	private JList<Receta> getList() {
 		if (recetarioList == null) {
 			recetarioList = new JList<Receta>();
+			recetarioList.setBorder(null);
 			recetarioList.setModel(recetarioModel);
 		}
 		return recetarioList;
@@ -184,6 +190,7 @@ public class VistaPrincipal extends JFrame {
 	private JPanel getPnAux1() {
 		if (pnAux1 == null) {
 			pnAux1 = new JPanel();
+			pnAux1.setBackground(Color.WHITE);
 			pnAux1.setLayout(new MigLayout("", "[115px]", "[29px,grow]"));
 			pnAux1.add(getBtnSeleccionar(), "cell 0 0,alignx center,aligny center");
 		}
@@ -222,6 +229,7 @@ public class VistaPrincipal extends JFrame {
 	private JScrollPane getScrollPane_1() {
 		if (sPnCompra == null) {
 			sPnCompra = new JScrollPane();
+			sPnCompra.setBorder(new TitledBorder(null, "Lista de la Compra", TitledBorder.LEADING, TitledBorder.TOP, null, Color.BLACK));
 			sPnCompra.setViewportView(getList_1());
 		}
 		return sPnCompra;
@@ -229,6 +237,7 @@ public class VistaPrincipal extends JFrame {
 	private JList<Receta> getList_1() {
 		if (compraList == null) {
 			compraList = new JList<Receta>();
+			compraList.setBorder(null);
 			compraList.setModel(compraModel);
 			compraList.setEnabled(false);
 		}
