@@ -5,17 +5,16 @@ import java.util.ArrayList;
 public class Recetario {
 	ArrayList<Receta> recetas;
 	
-	public Recetario()
+	public Recetario(ArrayList<Receta> recetas)
 	{
-		recetas = new ArrayList<Receta>();
-	}
-	
-	public void addReceta(Receta receta)
-	{
-		recetas.add(receta);
+		setRecetas(recetas);
 	}
 
 	public ArrayList<Receta> getRecetas() {
 		return recetas;
+	}
+
+	public void setRecetas(ArrayList<Receta> recetas) {
+		this.recetas = recetas;
 	}
 }
