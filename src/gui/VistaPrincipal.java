@@ -135,7 +135,9 @@ public class VistaPrincipal extends JFrame {
 			btnSeleccionarRecetario = new JButton("Seleccionar Recetario");
 			btnSeleccionarRecetario.addActionListener(new ActionListener() {
 				public void actionPerformed(ActionEvent e) {
-					cleanRecetario();
+					if (!recetarioModel.isEmpty()) {
+						cleanRecetario();
+					}
 					selectRecetarioXML();
 					loadRecetarioModel();
 					btnGenerarListaCompra.setEnabled(true);
@@ -219,12 +221,11 @@ public class VistaPrincipal extends JFrame {
 		int[] indices = recetarioList.getSelectedIndices();
 		for (int i = 0; i < indices.length; i++) {
 			Receta receta = recetarioModel.getElementAt(indices[i]);
-			if(!manager.getCompra().isInCompra(receta))
-			{
+			if (!manager.getCompra().isInCompra(receta)) {
 				manager.getCompra().addReceta(receta);
 				compraModel.addElement(receta);
 			}
-			
+
 		}
 		compraList.setModel(compraModel);
 	}
@@ -270,8 +271,8 @@ public class VistaPrincipal extends JFrame {
 					URI uri = selectDestinoCompra();
 					manager.printCompra(uri);
 					cleanCompra();
-					JOptionPane.showMessageDialog(null, "Lista de la compra generada correctamente", "CARRO DE LA COMPRA CORRECTO",
-							JOptionPane.INFORMATION_MESSAGE);
+					JOptionPane.showMessageDialog(null, "Lista de la compra generada correctamente",
+							"CARRO DE LA COMPRA CORRECTO", JOptionPane.INFORMATION_MESSAGE);
 				}
 			});
 		}
