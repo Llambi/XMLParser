@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="Recetas.xslt"?>
+
+<recetas>
+
+	<receta tipo="Primer Plato" calorias="149" dificultad="facil" tiempo="45min">
+		<titulo>"tortilla de patatas rellena de jamon y queso"</titulo>
+		<ingredientes>
+			<ingrediente cantidad="4">"patata"</ingrediente>
+			<ingrediente cantidad="5">"huevo"</ingrediente>
+			<ingrediente cantidad="1/2">"cebolla"</ingrediente>
+			<ingrediente cantidad="1">"sal"</ingrediente>
+			<ingrediente cantidad="1">"aceite"</ingrediente>
+			<ingrediente cantidad="4">"queso"</ingrediente>
+			<ingrediente cantidad="8">"lonchas de JamonYork"</ingrediente>
+		</ingredientes>
+		<pasos>
+			<paso numero="1">"En una sartén a fuego medio, añadimos un buen chorro de aceite. Después añadimos las patatas bien peladas y picadas y la cebolla cortada en trozos más grandes. Añadir una pizca de sal y dejar cocinar todo, mientras lo removemos con frecuencia con una cuchara de madera, durante unos 10 minutos"</paso>
+			<paso numero="2">"Pasado el tiempo, aplastamos las patatas con la cuchara. Ya estarán blanditas así que, no debería ser difícil hacerlo. Dejamos cocinar 5 minutos más mientras aplastamos con frecuencia, hasta haber obtenido una especie de patata en puré muy sólido"</paso>
+			<paso numero="3">"En un bol poner los huevos. Añadir una pizquita de sal y batir bien. Después añadimos el puré de patata y cebolla y mezclar hasta obtener una masa homogénea"</paso>
+			<paso numero="4">"Poner un pequeño chorrito de aceite de oliva en una sartén más pequeña y más profunda, a fuego bastante moderado. Encima colocar aproximandamente 1/3 de la mezcla de patata y huevo. Con la cuchara lo extendemos por toda la superficie de la sartén y encima, colocamos 4 lonchas de queso, 4 lonchas de jamón york y finalmente otras 4 lonchas de queso. Si quieres puedes añadir la misma cantidad de queso que de jamón. O más jamón que queso. Eso ya, a tu gusto. Encima colocamos el resto de la patata y huevo y con la cuchara lo extendemos de tal forma que la superficie quede bien lista. Si asoma un poquito del relleno no pasa nada. Cocinar a fuego moderado 5 minutos"</paso>
+			<paso numero="5">"Con la ayuda de un plato, damos la vuelta a la tortilla e introducimos el otro lado en la sartén. Nada más hacerlo, pasamos la cuchara de palo por los bordes de la tortilla, de tal forma que la vayamos “recogiendo” un poquito con ella. De esta forma, lograremos que quede con una forma más redondita y más vistosa. Cocinamos otros 5 minutos más</paso>
+			<paso numero="6">Finalmente, la sacamos de la sartén con la ayuda del plato. ¡Ya está lista!"</paso>
+		</pasos>
+		<utensilios>
+			<utensilio>"Cuchillo"</utensilio>
+			<utensilio>"Sarten"</utensilio>
+			<utensilio>"Cuchara"</utensilio>
+			<utensilio>"Tenedor"</utensilio>
+		</utensilios>
+		<Origen>https://www.cocinacaserayfacil.net/tortilla-patatas-rellena-jamon-queso/</Origen>
+	</receta>
+		
+	<receta tipo="Primer Plato" calorias="350" dificultad="facil" tiempo="15min">
+		<titulo>"macarrones con tomate"</titulo>
+		<ingredientes>
+			<ingrediente cantidad="200gr">"macarrones"</ingrediente>
+			<ingrediente cantidad="200gr">"carne"</ingrediente>
+			<ingrediente cantidad="1">"diente de ajo"</ingrediente>
+			<ingrediente cantidad="500ml">"salsa de tomate"</ingrediente>
+			<ingrediente cantidad="1">"aceite"</ingrediente>
+			<ingrediente cantidad="1">"sal"</ingrediente>
+			<ingrediente cantidad="1">"pimienta"</ingrediente>
+      <ingrediente cantidad="1">"queso"</ingrediente>
+		</ingredientes>
+		<pasos>
+			<paso numero="1">"Pon una cacerola a calentar bastante agua, con un poco de aceite de oliva y sal. Cuando rompa a hervir echa los macarrones, mantén el fuego a media potencia hasta que estén al dente. Remueve de vez en cuando para que no se peguen."</paso>
+			<paso numero="2">"Pela el diente de ajo y lo troceas en trocitos pequeños. Estos trocitos vas a freírlos en una sartén, para que queden bien dorados. Salpimienta la carne y la echas a la sartén cuando los trozos de diente de ajo empiecen a dorarse, añadiendo también el jamón. Remueve de vez en cuando y deja que vaya cogiendo color."</paso>
+			<paso numero="3">"Una vez que la carne haya cogido color, agrega la salsa de tomate y remueve. La misma puede ser comprada o echa en casa siguiendo nuestra clásica receta de salsa de tomate italiana. Deja cocinar todo junto por 5 minutos."</paso>
+			<paso numero="4">"Cuela y escurre los macarrones bien, para que suelten toda el agua, échalos en la sartén donde tienes la salsa y remueve para integrar todos los ingredientes."</paso>
+		</pasos>
+		<utensilios>
+			<utensilio>"Cuchillo"</utensilio>
+			<utensilio>"Sarten"</utensilio>
+			<utensilio>"Cacerola"</utensilio>
+			<utensilio>"Escurridor"</utensilio>
+			<utensilio>"Cuchara"</utensilio>
+			<utensilio>"Tenedor"</utensilio>
+		</utensilios>
+		<Origen>https://unareceta.com/macarrones/</Origen>
+	</receta>
+	
+	<receta tipo="Postre" calorias="150" dificultad="facil" tiempo="15min">
+		<titulo>"Boniato frito con canela"</titulo>
+		<ingredientes>
+			<ingrediente cantidad="500gr">"boniato"</ingrediente>
+			<ingrediente cantidad="1/4tz">"azucar"</ingrediente>
+			<ingrediente cantidad="1">"canela"</ingrediente>
+			<ingrediente cantidad="1/4">"clavo"</ingrediente>
+			<ingrediente cantidad="1">"aceite"</ingrediente>
+			<ingrediente cantidad="1">"sal"</ingrediente>
+			<ingrediente cantidad="1">"jengibre"</ingrediente>
+		</ingredientes>
+		<pasos>
+			<paso numero="1">"Para empezar, retira la piel y corta los boniatos en rodajas de un centímetro de ancho. Lava, escurre y seca bien."</paso>
+			<paso numero="2">"Vierte una buena cantidad de aceite de oliva en la sartén y cuando se haya calentado, no en exceso, fríe las rodajas de boniato a fuego medio."</paso>
+			<paso numero="3">"Cuando se hayan dorado muy bien por ambos lados, retíralas a un plato con papel absorbente.."</paso>
+			<paso numero="4">"Lo más recomendable es que las frías por tandas, ya que no se deben montar una sobre la otra. Será más fácil dorarlas de esta forma."</paso>
+      <paso numero="5">"Mezcla en una taza la canela, el jengibre y el clavo en polvo. A continuación sirve las rodajas de boniato en una fuente, espolvorea con el azúcar y luego con esta mezcla de especias."</paso>
+      <paso numero="6">"Disfruta este delicioso boniato frito con canela que acabas de preparar. Verás que no podrás resistirte a su sabor tan especial. ¡Muy buen provecho!"</paso>
+		</pasos>
+		<utensilios>
+			<utensilio>"Cuchillo"</utensilio>
+			<utensilio>"Sarten"</utensilio>
+			<utensilio>"Cacerola"</utensilio>
+			<utensilio>"Escurridor"</utensilio>
+			<utensilio>"Cuchara"</utensilio>
+			<utensilio>"Tenedor"</utensilio>
+		</utensilios>
+		<Origen>https://unareceta.com/boniato-frito-con-canela/</Origen>
+	</receta>
+	
+	<receta tipo="Segundo Plato" calorias="432" dificultad="facil" tiempo="10min">
+		<titulo>"Cachopo "</titulo>
+		<ingredientes>
+			<ingrediente cantidad="2">"filites"</ingrediente>
+			<ingrediente cantidad="1">"Jamon"</ingrediente>
+			<ingrediente cantidad="1">"queso"</ingrediente>
+			<ingrediente cantidad="1">"harina"</ingrediente>
+			<ingrediente cantidad="1">"huevo"</ingrediente>
+			<ingrediente cantidad="1">"pan rallado"</ingrediente>
+			<ingrediente cantidad="1">"sal"</ingrediente>
+			<ingrediente cantidad="1">"pimienta"</ingrediente>
+			<ingrediente cantidad="1">"aceite"</ingrediente>
+		</ingredientes>
+		<pasos>
+			<paso numero="1">"Salpimentamos los filetes de ternera (ojo, no les eches demasiada sal que el queso y el jamón o cecina que emplees, ya tienen sal y podrían quedar demasiado salados)"</paso>
+			<paso numero="2">"Ponemos uno de los filetes sobre una tabla de cocina y lo untamos por encima con el queso que hayas elegido. Encima del queso ponemos las lonchas de cecina o jamón serrano, hasta cubrir por completo. Después ponemos otro filete por encima, de forma que haga de tapa de todo el relleno."</paso>
+			<paso numero="3">"Cogemos con cuidado pero con firmeza toda la pieza y la pasamos por harina, por huevo batido y finalmente por pan rallado. Reservamos en un plato y dejamos reposar en la nevera 1 hora, para que se asienten bien todos los ingredientes"</paso>
+			<paso numero="4">"Freímos en abundante aceite caliente. Que cubra por completo al cachopo. Pasados dos o tres minutos, cuando esté dorado, lo retiramos y lo ponemos sobre papel absorbente, antes de emplatarlo"</paso>
+		</pasos>
+		<utensilios>
+			<utensilio>"Cuchillo"</utensilio>
+			<utensilio>"Sarten"</utensilio>
+			<utensilio>"Bol"</utensilio>
+			<utensilio>"Tenedor"</utensilio>
+		</utensilios>
+		<Origen>https://www.cocinacaserayfacil.net/cachopo-receta-asturiana/</Origen>
+	</receta>
+	
+	<receta tipo="Entrante" calorias="162" dificultad="facil" tiempo="10min">
+		<titulo>"Ensalada Mixta"</titulo>
+		<ingredientes>
+			<ingrediente cantidad="1/2">"lechuga romana"</ingrediente>
+			<ingrediente cantidad="1">"tomate de esalada"</ingrediente>
+			<ingrediente cantidad="1">"zanahoria rallada"</ingrediente>
+			<ingrediente cantidad="1/2">"cebolla morada"</ingrediente>
+			<ingrediente cantidad="1">"cdas. maiz dulce"</ingrediente>
+			<ingrediente cantidad="8">"aceitunas rellenas"</ingrediente>
+			<ingrediente cantidad="1">"aceite"</ingrediente>
+			<ingrediente cantidad="1">"vinagre"</ingrediente>
+			<ingrediente cantidad="1">"sal"</ingrediente>
+		</ingredientes>
+		<pasos>
+			<paso numero="1">"Cocemos el huevo durante 14 minutos en agua hirviendo. Cuando esté cocido lo echamos en agua fría para parar la cocción y lo pelamos y cortamos en cuartos."</paso>
+			<paso numero="2">"Lavamos 4 o 5 hojas de lechuga romana y la secamos con una centrifugadora o con papel absorbente."</paso>
+			<paso numero="3">"Rallamos la zanahoria en tiras muy finas."</paso>
+			<paso numero="4">"Picamos el tomate en medias rodajas o en trozos y la cebolla en rodajas o juliana."</paso>
+			<paso numero="5">"En un plato o fuente ponemos ponemos una base de lechuga y añadimos encima el tomate, la cebolla, la zanahoria rallada, las aceitunas, el maiz dulce y el huevo cocido en cuartos."</paso>
+			<paso numero="6">"Añadimos sal, vinagre de vino y aceite de oliva virgen extra al gusto."</paso>
+		</pasos>
+		<utensilios>
+			<utensilio>"Cuchillo"</utensilio>
+			<utensilio>"Cazo"</utensilio>
+			<utensilio>"Bol"</utensilio>
+			<utensilio>"Tenedor"</utensilio>
+		</utensilios>
+		<Origen>https://www.recetassinlactosa.com/ensalada-mixta-la-clasica-de-los-restaurantes/</Origen>
+	</receta>
+	
+	<receta tipo="Postre" calorias="465" dificultad="facil" tiempo="15min">
+		<titulo>"Picatostes de carnaval"</titulo>
+		<ingredientes>
+			<ingrediente cantidad="1">"barra de pan"</ingrediente>
+			<ingrediente cantidad="3">"huevo"</ingrediente>
+			<ingrediente cantidad="1l">"leche"</ingrediente>
+			<ingrediente cantidad="150gr">"azucar"</ingrediente>
+			<ingrediente cantidad="1cda">"canela"</ingrediente>
+			<ingrediente cantidad="1">"aceite"</ingrediente>
+		</ingredientes>
+		<pasos>
+			<paso numero="1">"Ponemos en un bol los huevos, los batimos con el azúcar y la canela, añadimos la leche e integramos todo a la mezcla, revolviendo con varillas."</paso>
+			<paso numero="2">"Cortamos rebanadas de pan como de 2 ó 3 cm. de grosor y las ponemos a remojar en el preparado de leche, cuando estén bien empapadas, las escurrimos y las freímos en aceite caliente hasta que se doren."</paso>
+			<paso numero="3">"Las ponemos sobre papel de cocina para que suelten el aceite y las espolvoreamos con azúcar. Calientes, frías o templadas están, buenísimas."</paso>
+		</pasos>
+		<utensilios>
+			<utensilio>"varilla"</utensilio>
+			<utensilio>"Sarten"</utensilio>
+			<utensilio>"Bol"</utensilio>
+			<utensilio>"Tenedor"</utensilio>
+		</utensilios>
+		<Origen>https://cookpad.com/es/recetas/105352-picatostes-de-carnaval</Origen>
+	</receta>
+	
+	<receta tipo="Primer Plato" calorias="320" dificultad="dificil" tiempo="150min">
+		<titulo>"Goulash"</titulo>
+		<ingredientes>
+			<ingrediente cantidad="1kg">"carne"</ingrediente>
+			<ingrediente cantidad="4">"dientes de ajo"</ingrediente>
+			<ingrediente cantidad="3">"zanahorias"</ingrediente>
+			<ingrediente cantidad="2">"cebollas"</ingrediente>
+			<ingrediente cantidad="1">"puerro"</ingrediente>
+			<ingrediente cantidad="4">"tomates"</ingrediente>
+			<ingrediente cantidad="1">"perejil"</ingrediente>
+			<ingrediente cantidad="1cda">"comino"</ingrediente>
+			<ingrediente cantidad="1cda">"pimenton dulce"</ingrediente>
+			<ingrediente cantidad="2">"laurel"</ingrediente>
+			<ingrediente cantidad="1">"pimiento rojo"</ingrediente>
+			<ingrediente cantidad="1">"chile picante"</ingrediente>
+			<ingrediente cantidad="1">"harina"</ingrediente>
+			<ingrediente cantidad="1l">"vino tinto"</ingrediente>
+			<ingrediente cantidad="1">"pimienta"</ingrediente>
+			<ingrediente cantidad="1">"aceite"</ingrediente>
+		</ingredientes>
+		<pasos>
+			<paso numero="1">"A la hora de comprar la carne pedidle al carnicero que os la corte a trozos regulares para guiso y que os la limpie, que le quite la grasa sobrante. Os quedarán unos trozos de 20 g más o menos. Si compramos la carne entera para guisar os recomiendo cortarla en casa en trozos de 2-3 cm, no os olvidéis de repasar y limpiar los posibles restos de grasa, ternillas y huesecillos."</paso>
+			<paso numero="2">"Salpimentamos la carne y pasamos por harina. Una vez enharinada y sacudida, la freiremos en la cazuela donde vamos a preparar el estofado. Calentamos el aceite de oliva virgen extra en una cazuela, echamos la carne y marcamos los trozos hasta que queden bien dorados, soltará parte de su jugo. Retiramos la carne y reservamos. En el aceite que hemos usado para la marcar la carne quedarán restos de la harina, nos servirá para espesar la salsa en la futura cocción del estofado."</paso>
+			<paso numero="3">"Pelamos los ajos, la cebolla y el puerro, y picamos muy finamente. Sofreímos todos los vegetales en el mismo aceite donde hemos dorado la carne durante unos 10 minutos a fuego lento."</paso>
+			<paso numero="4">"Cuando el sofrito esté bien dorado añadimos una buena cucharada de paprika. Este es el secreto de un excelente Gulash húngaro, la calidad del pimentón, aunque si no es húngaro podemos usar pimentón de la Vera, que tiene un toque ahumado delicioso. Removemos todo bien a temperatura baja para que no se nos queme."</paso>
+			<paso numero="5">"Pelamos las zanahorias y lavamos el pimiento rojo. Cortamos en rodajas lo más finas posibles las zanahorias (así se harán mucho antes en nuestro guiso) y el pimiento en daditos muy pequeños. Los tomates los cortamos a la mitad y rallamos hasta que nos quede sólo la pulpa del mismo. Añadimos estos ingredientes al sofrito anterior y removemos todo bien con una cuchara de madera mezclando los sabores."</paso>
+			<paso numero="6">"Troceamos el perejil fresco lo más picadito posible. Añadimos una cucharada de comino en polvo (opcional, a mi me encanta el toque de esta especia), el perejil y los pimientos húngaros (si no los encontráis sustituidlos por chile o cayenas, siempre que os guste el toque picante que le da al estofado). Removemos todo con suavidad para juntar los sabores."</paso>
+			<paso numero="7">"Añadimos los trozos de carne que tenemos reservados y echamos un vaso de vino tinto, en mi caso un buen mencía de la Ribeira Sacra para darle potencia al sabor del estofado y un color impresionante"</paso>
+			<paso numero="8">"Añadimos las hojas de laurel y rectificamos sal y pimienta. Dejamos que reduzca un poco, aproximadamente unos 10-15 minutos a fuego medio."</paso>
+			<paso numero="9">"Cubrimos todo con el resto del vino y si queréis el estofado un poco más suave, podéis sustituir parte del vino por caldo de carne o un poco de agua."</paso>
+			<paso numero="10">"Guisamos a fuego lento hasta que reduzca el líquido y la carne esté tierna, aproximadamente unas 2 horas. Es importante que remováis de vez en cuando para que no se pegue al fondo de la cazuela. Si lo preparáis el día antes lo mejor para calentarlo es usar la misma cazuela a fuego muy lento moviendo de vez en cuando."</paso>
+			<paso numero="11">"Servimos el gulash húngaro bien caliente con un poco de perejil picado por encima, acompañado de pan, pues la salsa de esta receta es grandiosa. Si te gusta más caldoso, aumenta la cantidad de caldo del guiso y tómalo como sopa."</paso>
+			<paso numero="12">"Opcionalmente (a mi no me gusta mucho), puedes añadirle un poco de nata agria al servir, que es la manera tradicional y como lo toman en Hungría. Hay quien añade nata líquida directamente a la salsa, para espesarla, pero no es lo tradicional. Puedes encontrar variantes donde no se añade tomate y muy poco paprika, pero desde que los españoles llevaron al imperio austro-húngaro el tomate y el pimentón, ya nadie se imagina este plato sin ese peculiar sabor, lo que ellos llaman “tomatenpaprika”."</paso>
+			<paso numero="13">"Podéis acompañar el goulash con un arroz blanco (le va perfecto), con una guarnición de späzli, que es una pasta de huevo fresca riquísima o unos Gnocchi de patata frescos salteados en mantequilla."</paso>
+		</pasos>
+		<utensilios>
+			<utensilio>"cuchillo"</utensilio>
+			<utensilio>"Sarten"</utensilio>
+			<utensilio>"Bol"</utensilio>
+			<utensilio>"Tenedor"</utensilio>
+			<utensilio>"Cacerola"</utensilio>
+		</utensilios>
+		<Origen>http://www.recetasderechupete.com/gulash-o-goulash-hungaro-receta-tradicional/8286/</Origen>
+	</receta>
+	
+	<receta tipo="Entrante" calorias="149" dificultad="facil" tiempo="15min">
+		<titulo>"Croquetas de Pollo"</titulo>
+		<ingredientes>
+			<ingrediente cantidad="200gr">"pollo"</ingrediente>
+			<ingrediente cantidad="1">"cebolla"</ingrediente>
+			<ingrediente cantidad="1">"diente de ajo"</ingrediente>
+			<ingrediente cantidad="100gr">"harina"</ingrediente>
+			<ingrediente cantidad="100gr">"mantequilla"</ingrediente>
+			<ingrediente cantidad="1l">"leche"</ingrediente>
+			<ingrediente cantidad="3">"huevo"</ingrediente>
+			<ingrediente cantidad="1">"pan rallado"</ingrediente>
+			<ingrediente cantidad="1">"aceite"</ingrediente>
+			<ingrediente cantidad="1">"cebolla"</ingrediente>
+		</ingredientes>
+		<pasos>
+			<paso numero="1">"Corta la mantequilla en dados y ponla a derretir en una cazuela.Pica finamente la cebolleta y el diente de ajo y añádelos a la cazuela. Rehoga durante 5-6 minutos, incorpora el jamón picado y saltéalo."</paso>
+			<paso numero="2">"Añade la harina y rehoga bien. Vierte la leche poco a poco, sindejar de remover. Cocina la bechamel durante 20 minutos aproximadamente removiendo constantemente. Espolvorea con perejil picado y extiende la masa sobre una fuente. Unta la superficie con un poco de mantequilla para que no se haga costra y déjala enfriar."</paso>
+			<paso numero="3">"Cuando la masa esté fría, corta y moldea las croquetas. Enharina, pasa por huevo y pan rallado y fríelas en aceite bien caliente."</paso>
+			<paso numero="4">"Cuando estén hechas, retíralas de la sartén y ponlas a escurrirel exceso de aceite sobre un plato cubierto con papel de cocina."</paso>
+		</pasos>
+		<utensilios>
+			<utensilio>"varilla"</utensilio>
+			<utensilio>"Sarten"</utensilio>
+			<utensilio>"Bol"</utensilio>
+			<utensilio>"Tenedor"</utensilio>
+			<utensilio>"Cazo"</utensilio>
+		</utensilios>
+		<Origen>https://www.hogarmania.com/cocina/recetas/aperitivos/201401/croquetas-jamon-23393.html</Origen>
+	</receta>
+	
+	<receta tipo="Primer Plato" calorias="564" dificultad="media" tiempo="1h">
+		<titulo>"Pote asturiano"</titulo>
+		<ingredientes>
+			<ingrediente cantidad="200gr">"Fabes"</ingrediente>
+			<ingrediente cantidad="1manojo">"berzas"</ingrediente>
+			<ingrediente cantidad="1/2kg">"patatas"</ingrediente>
+			<ingrediente cantidad="2">"chorizos"</ingrediente>
+			<ingrediente cantidad="2">"morcillas"</ingrediente>
+			<ingrediente cantidad="1">"tocino"</ingrediente>
+			<ingrediente cantidad="1">"sal"</ingrediente>
+			<ingrediente cantidad="1">"aceite"</ingrediente>
+      <ingrediente cantidad="1">"carne"</ingrediente>
+		</ingredientes>
+		<pasos>
+			<paso numero="1">"A las morcillas y los chorizos, les damos un hervor en un cazo con agua para quitarles parte de la grasa, se escurren , y este agua se tira."</paso>
+			<paso numero="2">"Hemos tenido toda la noche remojando las fabes, las pasamos por agua limpia, escurrimos y ponemos en una olla con el aceite rehogamos bien para que se impregnen de aceite y cubrimos con agua, añadimos las morcillas, el tocino y los chorizos y ponemos al fuego."</paso>
+			<paso numero="3">"Cuando empiece a hervir añadimos las berzas bien limpias y picadas muy menudas, dejamos que hierva 90 minutos lentamente."</paso>
+			<paso numero="4">"Pasado este tiempo añadimos las patatas picadas dejamos cocer otros 15 minutos, rectificamos de sal y antes de servir dejamos reposar al menos media hora. De un dia para otro esta mucho mejor el pote"</paso>
+		</pasos>
+		<utensilios>
+			<utensilio>"Cuchillo"</utensilio>
+			<utensilio>"Cuchara"</utensilio>
+			<utensilio>"Olla"</utensilio>
+		</utensilios>
+		<Origen>https://cookpad.com/es/recetas/105334-pote-asturiano-con-berza</Origen>
+	</receta>
+	
+	<receta tipo="Postre" calorias="111" dificultad="media" tiempo="1h">
+		<titulo>"Arroz con Leche"</titulo>
+		<ingredientes>
+			<ingrediente cantidad="1l">"leche"</ingrediente>
+			<ingrediente cantidad="200gr">"arroz"</ingrediente>
+			<ingrediente cantidad="125gr">"azucar"</ingrediente>
+			<ingrediente cantidad="25gr">"mantequilla"</ingrediente>
+			<ingrediente cantidad="2">"Canela"</ingrediente>
+			<ingrediente cantidad="1">"cascara de limon"</ingrediente>
+		</ingredientes>
+		<pasos>
+			<paso numero="1">"Pon en una cacerola el litro de leche a calentar con el azúcar, la cáscara del limón y las dos ramas de canela. Dejar a fuego medio hasta que hierva la leche."</paso>
+			<paso numero="2">"Mientras se calienta la leche vamos a lavar el arroz bajo el grifo. Pon en un colador el arroz y ponlo bajo el grifo. Debajo del colador pon un cacharro que vaya recogiendo el agua que escurre del arroz. En el cacharro podremos ver que el agua que va cayendo tiene un color blancuzco (el almidón del arroz). Cuando empiece a salir clara cierra el grifo y deja que escurra bien el arroz."</paso>
+			<paso numero="3">"Una vez que hierva la leche, añadimos el arroz bien escurrido y removemos bien. Ponemos el fuego a una temperatura medio baja y dejamos que se vaya haciendo el arroz durante 50-60 minutos. Hay que ir removiendo de vez en cuando, con más frecuencia a medida que el arroz se va hinchando con la leche, y vigilando atentamente durante los últimos minutos o se pegará y quemará el arroz del fondo."</paso>
+			<paso numero="4">"Cuando lleve 50 minutos prueba el arroz, si está hecho tienes que ver cuanta leche queda en la olla. Ten en cuenta que si apartamos el arroz todavía absorberá algo de leche, así que si queda demasiada leche deja los 10 minutos que quedan o un poco más y retira cuando a penas quede leche."</paso>
+			<paso numero="5">"Fuera del fuego, retira la cáscara del limón y las ramas de canela. Añade 25 gramos de mantequilla en cuadraditos al arroz con leche y remueve bien hasta que se funda y se integre con el arroz."</paso>
+			<paso numero="6">"Deja reposar durante cinco minutos y reparte en cuatro recipientes. Espolvorea con canela al gusto y decora, si quieres, con un poco de la cáscara de limón "</paso>
+		</pasos>
+		<utensilios>
+			<utensilio>"Bol"</utensilio>
+			<utensilio>"Cuchara"</utensilio>
+			<utensilio>"Olla"</utensilio>
+		</utensilios>
+		<Origen>http://javirecetas.hola.com/arroz-con-leche/</Origen>
+	</receta>
+  <receta tipo="Entrante" calorias="50" dificultad="facil" tiempo="20min">
+    <titulo>"Queso vegano con finas hierbas"</titulo>
+    <ingredientes>
+      <ingrediente cantidad="200gr">"tofu"</ingrediente>
+      <ingrediente cantidad="1">"hiervas provenzales"</ingrediente>
+      <ingrediente cantidad="500ml">"Leche de soja"</ingrediente>
+      <ingrediente cantidad="25gr">"mantequilla"</ingrediente>
+      <ingrediente cantidad="10ml">"Aceite"</ingrediente>
+      <ingrediente cantidad="1">"ajo"</ingrediente>
+    </ingredientes>
+    <pasos>
+      <paso numero="1">"El proceso para conseguir nuestro queso es muy sencillo, ya que sólo tendremos que triturar todos los ingredientes en la batidora hasta que el tofu quede totalmente triturado y sin grumos. Nos quedará una textura de queso de untar."</paso>
+    </pasos>
+    <utensilios>
+      <utensilio>"Bol"</utensilio>
+      <utensilio>"batidora"</utensilio>
+      <utensilio>"Cuchara"</utensilio>
+    </utensilios>
+    <Origen>http://delantaldealces.com/queso-crema-vegano-finas-hierbas/</Origen>
+  </receta>
+  <receta tipo="Primer Plato" calorias="150" dificultad="media" tiempo="55min">
+    <titulo>"Tortilla de patata Vegana"</titulo>
+    <ingredientes>
+      <ingrediente cantidad="5">"patata"</ingrediente>
+      <ingrediente cantidad="1">"tomate"</ingrediente>
+      <ingrediente cantidad="1">"cebolla"</ingrediente>
+      <ingrediente cantidad="170gr">"tofu"</ingrediente>
+      <ingrediente cantidad="1/2tz">"Harina de garbanzo"</ingrediente>
+      <ingrediente cantidad="1/2tz">"Leche de almendra"</ingrediente>
+      <ingrediente cantidad="1">"ajo"</ingrediente>
+      <ingrediente cantidad="1">"sal"</ingrediente>
+      <ingrediente cantidad="1">"Mostaza en polvo"</ingrediente>
+      <ingrediente cantidad="1">"Curcuma"</ingrediente>
+      <ingrediente cantidad="1">"Aceite"</ingrediente>
+    </ingredientes>
+    <pasos>
+      <paso numero="1">"Precaliente el horno a 200 grados C"</paso>
+      <paso numero="2">"Calentar una cucharada de aceite de oliva en una sartén a fuego medio durante un minuto. Añadir la cebolla y rehogar hasta que esté transparente."</paso>
+      <paso numero="3">"Añadir la patata cortada en cubitos, mezclar y cubrir con una tapa. Cocer durante unos 10 minutos, revolviendo de vez en cuando para evitar que se pegue. Añadir un poco de agua o caldo de verduras a la sartén y baja el fuego. Una vez que las papas pueden ser perforados fácilmente con un tenedor, retirar del fuego."</paso>
+      <paso numero="4">"Mientras que las patatas están cocinando, hacer la masa. Aprieta suavemente el bloque de tofu liberar el exceso de agua. En una licuadora, combine el queso de soja, harina de garbanzos, leche de almendras, sal y especias. Mezcla hasta que quede suave. Vierte la mezcla en un tazón."</paso>
+      <paso numero="5">"Una vez que las papas se han cocinado, añadirlas a la masa y mezcla bien. Limpia con cuidado la sartén con una toalla de papel. Rociarlo con de aceite de oliva. Vierta la mezcla en la sartén y calentar a fuego medio. Si comienza a tener grandes burbujas en el medio, reduzca el fuego."</paso>
+      <paso numero="6">"Dejar cocer hasta que los bordes han comenzado a establecerse, unos 7-10 minutos. Trasladar al horno y dejar cocer durante 15 minutos. Un palillo insertado en el centro debe salir limpio. Retirar del horno y dejar enfriar sobre una rejilla durante unos 5 minutos."</paso>
+      <paso numero="7">"Una vez que ha tenido tiempo de enfriarse, pasa un cuchillo alrededor del borde para aflojar la tortilla de la sartén. Coloca un plato grande sobre la sartén y con mucho cuidado, voltear la sartén. Lista para servir."</paso>
+    </pasos>
+    <utensilios>
+      <utensilio>"Sarten"</utensilio>
+      <utensilio>"tenedor"</utensilio>
+      <utensilio>"Cuchillo"</utensilio>
+      <utensilio>"licuadora"</utensilio>
+    </utensilios>
+    <Origen>http://delantaldealces.com/queso-crema-vegano-finas-hierbas/</Origen>
+  </receta>
+  <receta tipo="Primer Plato" calorias="100" dificultad="media" tiempo="35min">
+    <titulo>"Tallarines con seitan"</titulo>
+    <ingredientes>
+      <ingrediente cantidad="280gr">"tallarines"</ingrediente>
+      <ingrediente cantidad="300gr">"seitan"</ingrediente>
+      <ingrediente cantidad="200gr">"champiñones"</ingrediente>
+      <ingrediente cantidad="1">"pimiento rojo"</ingrediente>
+      <ingrediente cantidad="1">"oregano"</ingrediente>
+      <ingrediente cantidad="1">"perejil"</ingrediente>
+      <ingrediente cantidad="1">"ajo"</ingrediente>
+      <ingrediente cantidad="1">"sal de soja"</ingrediente>
+      <ingrediente cantidad="1">"guindilla picante"</ingrediente>
+      <ingrediente cantidad="1">"Curcuma"</ingrediente>
+      <ingrediente cantidad="1">"Semillas de sesamo"</ingrediente>
+      <ingrediente cantidad="1">"Aceite"</ingrediente>
+    </ingredientes>
+    <pasos>
+      <paso numero="1">"Mientras cocinas la pasta, corta los pimientos en tiras, lo champiñones en laminas y el seitán en cubitos."</paso>
+      <paso numero="2">"Agrega el aceite de oliva al wok, pon el fuego medio-alto, gira la sartén para que el aceite toque también los laterales."</paso>
+      <paso numero="3">"Empieza cocinando el pimiento. Una vez esté más blando, baja un poco el fuego, agrega el seitán y remueve constantemente."</paso>
+      <paso numero="4">"Añade los champiñones."</paso>
+      <paso numero="5">"Agrega la salsa de soja y déjala evaporar."</paso>
+      <paso numero="6">"Pon el curry, la sal, la pimienta, la guindilla cortada pequeña y las demás hierbas y remueve hasta cuando los champiñones estén cocidos."</paso>
+      <paso numero="7">"Por ultimo, mézclalo todo con la pasta a fuego bajo unos minutos y sírvelo con semillas de sesamo encima."</paso>
+    </pasos>
+    <utensilios>
+      <utensilio>"Cuchillo"</utensilio>
+      <utensilio>"wok"</utensilio>
+      <utensilio>"Plato"</utensilio>
+    </utensilios>
+    <Origen>http://ideavegana.com/wok-tallarines-seitan/</Origen>
+  </receta>
+  <receta tipo="Segundo Plato" calorias="200" dificultad="media" tiempo="55min">
+    <titulo>"Hamburguesa de lentejas"</titulo>
+    <ingredientes>
+      <ingrediente cantidad="450gr">"Lentejas cocidas"</ingrediente>
+      <ingrediente cantidad="1">"Cebolla"</ingrediente>
+      <ingrediente cantidad="1">"Calabazin"</ingrediente>
+      <ingrediente cantidad="1">"Tomillo"</ingrediente>
+      <ingrediente cantidad="1">"Pimienta"</ingrediente>
+      <ingrediente cantidad="1">"sal"</ingrediente>
+      <ingrediente cantidad="1">"harina de garbanzo"</ingrediente>
+      <ingrediente cantidad="1">"Pimenton"</ingrediente>
+      <ingrediente cantidad="1">"Aceite"</ingrediente>
+    </ingredientes>
+    <pasos>
+      <paso numero="1">"Cocinaremos las lentejas, con un poco de sal y algunas hojas de laurel (opcional)"</paso>
+      <paso numero="2">"En una trituradora agregamos las lentejas, la cebolla, calabacín, sal y especias. Trituramos hasta conseguir una pasta homogénea."</paso>
+      <paso numero="3">"A esa mezcla le agregaremos 4-5 cucharadas de harina de garbanzos para darle espesor y así formar bien las hamburguesas. Si se quedaran muy pegasosas, añadiríamos algunas cucharadas más."</paso>
+      <paso numero="4">"Una vez que tengamos la masa preparada, con una cuchara grande iremos tomando pequeñas porciones en forma de bola y aplastándolas para darle forma de hamburguesas."</paso>
+      <paso numero="5">"Por último, en una sartén caliente con un poco de aceite de oliva (o cualquier aceite que utilices) las cocinaremos hasta que se doren."</paso>
+    </pasos>
+    <utensilios>
+      <utensilio>"Olla"</utensilio>
+      <utensilio>"trituradora"</utensilio>
+      <utensilio>"Sarten"</utensilio>
+      <utensilio>"Cuchara"</utensilio>
+      <utensilio>"Tenedor"</utensilio>
+    </utensilios>
+    <Origen>http://cocina.facilisimo.com/hamburguesas-de-lentejas-sin-gluten-y-veganas_2067819.html</Origen>
+  </receta>
+  <receta tipo="Segundo Plato" calorias="100" dificultad="facil" tiempo="20min">
+    <titulo>"Arroz frito con verduras"</titulo>
+    <ingredientes>
+      <ingrediente cantidad="150gr">"Arroz"</ingrediente>
+      <ingrediente cantidad="350ml">"agua"</ingrediente>
+      <ingrediente cantidad="1">"Zanahoria"</ingrediente>
+      <ingrediente cantidad="1">"Cebolla"</ingrediente>
+      <ingrediente cantidad="1">"Puerro"</ingrediente>
+      <ingrediente cantidad="1">"sal"</ingrediente>
+      <ingrediente cantidad="1">"Salsa de soja"</ingrediente>
+      <ingrediente cantidad="1">"Aceite"</ingrediente>
+    </ingredientes>
+    <pasos>
+      <paso numero="1">"En un bol apto para microondas ponemos a calentar el agua con una cucharada de aceite de oliva virgen extra y una pizca de sal, sin pasarnos porque luego la salsa de soja lo salará más. Programaremos 90 segundos a 800 W."</paso>
+      <paso numero="2">"Sacamos con cuidado de no quemarnos, echamos el arroz y cocinamos en el microondas durante 10 minutos a 800 W sin tapar."</paso>
+      <paso numero="3">"Mientras se cocina el arroz, pelamos la zanahoria, la cebolla y las troceamos finamente junto con el puerro."</paso>
+      <paso numero="4">"En una sartén de fondo grueso o un wok ponemos a calentar dos cucharadas de aceite de oliva virgen extra a fuego fuerte, añadimos las verduras troceadas y salteamos durante un par de minutos a fuego alto, no es necesario añadir sal porque luego pondremos la salsa de soja y no importa si se chamuscan un poco porque al no llevar ajo no hay problema de que amargue. Eso sí, si vemos que se empiezan a chamuscar y que aún le falta un poco al arroz bajamos el fuego."</paso>
+      <paso numero="5">"Cuando esté listo el arroz, añadimos la salsa de soja al sofrito, fuego fuerte, añadimos el arroz cocido y salteamos durante un par de minutos meneando la sartén o el wok para que se fría el arroz."</paso>
+      <paso numero="6">"Probamos y, si fuese necesario, rectificamos de sal."</paso>
+    </pasos>
+    <utensilios>
+      <utensilio>"Sarten"</utensilio>
+      <utensilio>"Cuchillo"</utensilio>
+      <utensilio>"Cuchara"</utensilio>
+    </utensilios>
+    <Origen>http://cocinillas.elespanol.com/2016/01/arroz-frito-rapido/</Origen>
+  </receta>
+  <receta tipo="Postre" calorias="300" dificultad="facil" tiempo="1h20min">
+    <titulo>"Buñuelos"</titulo>
+    <ingredientes>
+      <ingrediente cantidad="500gr">"Calabaza"</ingrediente>
+      <ingrediente cantidad="200gr">"Harina"</ingrediente>
+      <ingrediente cantidad="16gr">"Levadura"</ingrediente>
+      <ingrediente cantidad="1">"Azucar"</ingrediente>
+      <ingrediente cantidad="1">"sal"</ingrediente>
+    </ingredientes>
+    <pasos>
+      <paso numero="1">"Precalentamos el horno a 180 grados C."</paso>
+      <paso numero="2">"Teniendo la calabaza previamente pelada y sin pepitas la metemos al horno en trocitos para que tarde menos en asarse. Más o menos, dependiendo del tamaño de los pedazos de calabaza, tardará 45 min. en estar lista."</paso>
+      <paso numero="3">"Mientras tanto en un recipiente ancho ponemos 200 gr. de harina de trigo (si queremos podemos poner una mitad de la harina integral), mezclamos la levadura en polvo, la cucharadita de sal y la cucharada de azúcar."</paso>
+      <paso numero="4">"Una vez retirada la calabaza del horno la batimos y dejamos que se enfríe un poco. Juntamos entonces la mezcla de harina con la calabaza y removemos bien, hasta que esté todo homogéneo. Quedará una masa pegajosa. Reservamos tapada con un paño una hora aprox. para que actue la levadura."</paso>
+      <paso numero="5">"Calentamos una sartén con abundante aceite. Cuando el aceite esté caliente, con la ayuda de una manga pastelera (o una bolsa de plástico con un corte en una esquina) vamos dejando bolitas de masa de calabaza para que se frían."</paso>
+      <paso numero="6">"Cuando se haya dorado por un lado, le damos la vuelta, terminamos de dorar y los ponemos sobre papel absorvente para retirar el exceso de aceite."</paso>
+    </pasos>
+    <utensilios>
+      <utensilio>"Sarten"</utensilio>
+      <utensilio>"Cuchillo"</utensilio>
+      <utensilio>"Cuchara"</utensilio>
+      <utensilio>"Fuente de horno"</utensilio>
+    </utensilios>
+    <Origen>http://www.vegetarianismo.net/recetas/bunuelos-calabaza.html</Origen>
+  </receta>
+</recetas>

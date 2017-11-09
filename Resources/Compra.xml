@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<compra>
+  <receta titulo="Boniato frito con canela">
+    <ingrediente cantidad="500gr">boniato</ingrediente>
+    <ingrediente cantidad="1/4tz">azucar</ingrediente>
+    <ingrediente cantidad="1">canela</ingrediente>
+    <ingrediente cantidad="1/4">clavo</ingrediente>
+    <ingrediente cantidad="1">aceite</ingrediente>
+    <ingrediente cantidad="1">sal</ingrediente>
+    <ingrediente cantidad="1">jengibre</ingrediente>
+  </receta>
+  <receta titulo="Cachopo ">
+    <ingrediente cantidad="2">filites</ingrediente>
+    <ingrediente cantidad="1">Jamon</ingrediente>
+    <ingrediente cantidad="1">queso</ingrediente>
+    <ingrediente cantidad="1">harina</ingrediente>
+    <ingrediente cantidad="1">huevo</ingrediente>
+    <ingrediente cantidad="1">pan rallado</ingrediente>
+    <ingrediente cantidad="1">sal</ingrediente>
+    <ingrediente cantidad="1">pimienta</ingrediente>
+    <ingrediente cantidad="1">aceite</ingrediente>
+  </receta>
+  <receta titulo="Ensalada Mixta">
+    <ingrediente cantidad="1/2">lechuga romana</ingrediente>
+    <ingrediente cantidad="1">tomate de esalada</ingrediente>
+    <ingrediente cantidad="1">zanahoria rallada</ingrediente>
+    <ingrediente cantidad="1/2">cebolla morada</ingrediente>
+    <ingrediente cantidad="1">cdas. maiz dulce</ingrediente>
+    <ingrediente cantidad="8">aceitunas rellenas</ingrediente>
+    <ingrediente cantidad="1">aceite</ingrediente>
+    <ingrediente cantidad="1">vinagre</ingrediente>
+    <ingrediente cantidad="1">sal</ingrediente>
+  </receta>
+  <receta titulo="Picatostes de carnaval">
+    <ingrediente cantidad="1">barra de pan</ingrediente>
+    <ingrediente cantidad="3">huevo</ingrediente>
+    <ingrediente cantidad="1l">leche</ingrediente>
+    <ingrediente cantidad="150gr">azucar</ingrediente>
+    <ingrediente cantidad="1cda">canela</ingrediente>
+    <ingrediente cantidad="1">aceite</ingrediente>
+  </receta>
+  <receta titulo="Goulash">
+    <ingrediente cantidad="1kg">carne</ingrediente>
+    <ingrediente cantidad="4">dientes de ajo</ingrediente>
+    <ingrediente cantidad="3">zanahorias</ingrediente>
+    <ingrediente cantidad="2">cebollas</ingrediente>
+    <ingrediente cantidad="1">puerro</ingrediente>
+    <ingrediente cantidad="4">tomates</ingrediente>
+    <ingrediente cantidad="1">perejil</ingrediente>
+    <ingrediente cantidad="1cda">comino</ingrediente>
+    <ingrediente cantidad="1cda">pimenton dulce</ingrediente>
+    <ingrediente cantidad="2">laurel</ingrediente>
+    <ingrediente cantidad="1">pimiento rojo</ingrediente>
+    <ingrediente cantidad="1">chile picante</ingrediente>
+    <ingrediente cantidad="1">harina</ingrediente>
+    <ingrediente cantidad="1l">vino tinto</ingrediente>
+    <ingrediente cantidad="1">pimienta</ingrediente>
+    <ingrediente cantidad="1">aceite</ingrediente>
+  </receta>
+  <receta titulo="Croquetas de Pollo">
+    <ingrediente cantidad="200gr">pollo</ingrediente>
+    <ingrediente cantidad="1">cebolla</ingrediente>
+    <ingrediente cantidad="1">diente de ajo</ingrediente>
+    <ingrediente cantidad="100gr">harina</ingrediente>
+    <ingrediente cantidad="100gr">mantequilla</ingrediente>
+    <ingrediente cantidad="1l">leche</ingrediente>
+    <ingrediente cantidad="3">huevo</ingrediente>
+    <ingrediente cantidad="1">pan rallado</ingrediente>
+    <ingrediente cantidad="1">aceite</ingrediente>
+    <ingrediente cantidad="1">cebolla</ingrediente>
+  </receta>
+  <receta titulo="Pote asturiano">
+    <ingrediente cantidad="200gr">Fabes</ingrediente>
+    <ingrediente cantidad="1manojo">berzas</ingrediente>
+    <ingrediente cantidad="1/2kg">patatas</ingrediente>
+    <ingrediente cantidad="2">chorizos</ingrediente>
+    <ingrediente cantidad="2">morcillas</ingrediente>
+    <ingrediente cantidad="1">tocino</ingrediente>
+    <ingrediente cantidad="1">sal</ingrediente>
+    <ingrediente cantidad="1">aceite</ingrediente>
+    <ingrediente cantidad="1">carne</ingrediente>
+  </receta>
+  <receta titulo="Arroz con Leche">
+    <ingrediente cantidad="1l">leche</ingrediente>
+    <ingrediente cantidad="200gr">arroz</ingrediente>
+    <ingrediente cantidad="125gr">azucar</ingrediente>
+    <ingrediente cantidad="25gr">mantequilla</ingrediente>
+    <ingrediente cantidad="2">Canela</ingrediente>
+    <ingrediente cantidad="1">cascara de limon</ingrediente>
+  </receta>
+  <receta titulo="Queso vegano con finas hierbas">
+    <ingrediente cantidad="200gr">tofu</ingrediente>
+    <ingrediente cantidad="1">hiervas provenzales</ingrediente>
+    <ingrediente cantidad="500ml">Leche de soja</ingrediente>
+    <ingrediente cantidad="25gr">mantequilla</ingrediente>
+    <ingrediente cantidad="10ml">Aceite</ingrediente>
+    <ingrediente cantidad="1">ajo</ingrediente>
+  </receta>
+</compra>
