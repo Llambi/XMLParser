@@ -1,4 +1,4 @@
-# **XMLParser-Recetario2ListaCompra** 
+# XMLParser-Recetario2ListaCompra 
 
 Se trata de una aplicación para, a partir de un archivo XML que contiene recetas,  
 seleccionar de estas las que se quieren realizar y que genere un archivo XML con la lista de la compra necesaria.
@@ -12,7 +12,7 @@ Para usar la aplicación se deberán seguir los siguientes pasos:
 
 1. Arrancar la aplicación haciendo doble click sobre el archivo **Recetario2ListaCompra.jar**  
 localizado en la carpeta **Resources**.
-2. Haciendo click en el botón *Seleccionar* Recetario* abriremos una ventana en la que podremos  
+2. Haciendo click en el botón *Seleccionar Recetario* abriremos una ventana en la que podremos  
 navegar por los distintos directorios del PC para seleccionar el archivo XML con las recetas que  
 queramos cargar.
 3. Una vez seleccionado aceptaremos la selección dando al botón *Aceptar*.
