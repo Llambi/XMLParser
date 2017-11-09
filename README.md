@@ -19,7 +19,7 @@ queramos cargar.
 4. Seleccionar en la lista donde se han cargado las recetas las que queramos.
 5. Cargar las recetas seleccionadas a en la lista de la compra haciendo click en el botón *Seleccionar*  
 (los pasos 4 y 5 se podrán repetir hasta que estemos conformes con la selección).
-6. Generar el archivo XML haciendo click en el botón *Generar* lista de la compra* 
+6. Generar el archivo XML haciendo click en el botón *Generar lista de la compra* 
 7. En la ventana que se abre seleccionar el directorio donde queramos guardar el archivo  
 creado anteriormente
 
