@@ -231,11 +231,14 @@ public class VistaPrincipal extends JFrame {
 
 	private void cleanCompra() {
 		compraModel.removeAllElements();
+		manager.getCompra().clear();
 		btnGenerarListaCompra.setEnabled(false);
 	}
 
 	private void cleanRecetario() {
 		recetarioModel.removeAllElements();
+		manager.getRecetario().clean();
+		cleanCompra();
 	}
 
 	private JScrollPane getScrollPane_1() {

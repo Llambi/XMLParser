@@ -22,4 +22,8 @@ public class Compra {
 	public ArrayList<Receta> getRecetas() {
 		return recetas;
 	}
+
+	public void clear() {
+		recetas.clear();
+	}
 }

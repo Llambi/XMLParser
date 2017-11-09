@@ -17,4 +17,8 @@ public class Recetario {
 	public void setRecetas(ArrayList<Receta> recetas) {
 		this.recetas = recetas;
 	}
+
+	public void clean() {
+		recetas.clear();
+	}
 }
