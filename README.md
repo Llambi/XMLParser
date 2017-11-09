@@ -1,12 +1,12 @@
-#**XMLParser-Recetario2ListaCompra**
+# **XMLParser-Recetario2ListaCompra**
  
     Se trata de una aplicación para, a partir de un archivo XML que contiene recetas, seleccionar de estas las que se quieren realizar y que genere un archivo XML con la lista de la compra necesaria.
 
-##Leguaje de programación:
+## Leguaje de programación:
 
     Se ha usado Java, con la versión de compilador 1.8 y las bibliotecas de **DOM4J-2.1** y **Jaxen-1.1**
 
-##Instrucciones:
+## Instrucciones:
     Para usar la aplicación se deberán seguir los siguientes pasos:
     
     1. Arrancar la aplicación haciendo doble click sobre el archivo **Recetario2ListaCompra.jar** localizado en la carpeta **Resources.
@@ -20,6 +20,6 @@
     Tras estos pasos se abra generado un archivo XML con el nombre **Compra.xml** en el directorio que hayamos elegido en el ultimo paso.
     Para reiniciar la Lista de la compra se deberá volver a cargar el XML de nuestro recetario como se explica en el paso 1.
 
-##Pruebas:
+## Pruebas:
 
     Se ha usado el documento XML generado para las practicas anteriores en las que se tenía que simular un recetario, se encuentra adjunto en la carpeta Resources.
